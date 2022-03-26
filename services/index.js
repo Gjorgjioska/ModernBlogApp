@@ -41,14 +41,14 @@ export const getRecentPosts = async () => {
   const query = gql`
   query GetPostDetails() {
     posts(
-      oredrBy:createdAt_ASC
+      orderBy:createdAt_ASC
       last:3
       ){
         title
         featuredImage{
           url
         }
-        crratedAt
+        createdAt
         slug
       }
     
