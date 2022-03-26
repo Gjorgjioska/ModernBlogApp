@@ -20,7 +20,7 @@ const PostCard = ({ post }) => {
       <div className="bloc justif-center mb-8 w-full items-center text-center lg:flex  ">
         <div className="mb-4 mr-8 flex w-full w-full items-center justify-center lg:mb-0 lg:w-auto ">
           <img
-            // alt={post.author.photo}
+            alt={post.author.photo}
             height="30px"
             width="30px"
             className="rounded-full align-middle"
